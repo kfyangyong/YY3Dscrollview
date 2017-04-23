@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FE38D21EAC75FF00138CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D11EAC75FF00138CC1 /* main.m */; };
+		18FE38D51EAC75FF00138CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D41EAC75FF00138CC1 /* AppDelegate.m */; };
+		18FE38D81EAC75FF00138CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D71EAC75FF00138CC1 /* ViewController.m */; };
+		18FE38DB1EAC75FF00138CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE38D91EAC75FF00138CC1 /* Main.storyboard */; };
+		18FE38DD1EAC75FF00138CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE38DC1EAC75FF00138CC1 /* Assets.xcassets */; };
+		18FE38E01EAC75FF00138CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE38DE1EAC75FF00138CC1 /* LaunchScreen.storyboard */; };
+		18FE38EB1EAC75FF00138CC1 /* YY3DscrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38EA1EAC75FF00138CC1 /* YY3DscrollviewTests.m */; };
+		18FE38F61EAC75FF00138CC1 /* YY3DscrollviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38F51EAC75FF00138CC1 /* YY3DscrollviewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FE38E71EAC75FF00138CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE38C51EAC75FF00138CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE38CC1EAC75FF00138CC1;
+			remoteInfo = YY3Dscrollview;
+		};
+		18FE38F21EAC75FF00138CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE38C51EAC75FF00138CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE38CC1EAC75FF00138CC1;
+			remoteInfo = YY3Dscrollview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FE38CD1EAC75FF00138CC1 /* YY3Dscrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YY3Dscrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE38D11EAC75FF00138CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FE38D31EAC75FF00138CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FE38D41EAC75FF00138CC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FE38D61EAC75FF00138CC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FE38D71EAC75FF00138CC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FE38DA1EAC75FF00138CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FE38DC1EAC75FF00138CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FE38DF1EAC75FF00138CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FE38E11EAC75FF00138CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE38E61EAC75FF00138CC1 /* YY3DscrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YY3DscrollviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE38EA1EAC75FF00138CC1 /* YY3DscrollviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YY3DscrollviewTests.m; sourceTree = "<group>"; };
+		18FE38EC1EAC75FF00138CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE38F11EAC75FF00138CC1 /* YY3DscrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YY3DscrollviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE38F51EAC75FF00138CC1 /* YY3DscrollviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YY3DscrollviewUITests.m; sourceTree = "<group>"; };
+		18FE38F71EAC75FF00138CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE38CA1EAC75FF00138CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38E31EAC75FF00138CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38EE1EAC75FF00138CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FE38C41EAC75FF00138CC1 = {
+			isa = PBXGroup;
+			children = (
+				18FE38CF1EAC75FF00138CC1 /* YY3Dscrollview */,
+				18FE38E91EAC75FF00138CC1 /* YY3DscrollviewTests */,
+				18FE38F41EAC75FF00138CC1 /* YY3DscrollviewUITests */,
+				18FE38CE1EAC75FF00138CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE38CE1EAC75FF00138CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE38CD1EAC75FF00138CC1 /* YY3Dscrollview.app */,
+				18FE38E61EAC75FF00138CC1 /* YY3DscrollviewTests.xctest */,
+				18FE38F11EAC75FF00138CC1 /* YY3DscrollviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE38CF1EAC75FF00138CC1 /* YY3Dscrollview */ = {
+			isa = PBXGroup;
+			children = (
+				18FE38D31EAC75FF00138CC1 /* AppDelegate.h */,
+				18FE38D41EAC75FF00138CC1 /* AppDelegate.m */,
+				18FE38D61EAC75FF00138CC1 /* ViewController.h */,
+				18FE38D71EAC75FF00138CC1 /* ViewController.m */,
+				18FE38D91EAC75FF00138CC1 /* Main.storyboard */,
+				18FE38DC1EAC75FF00138CC1 /* Assets.xcassets */,
+				18FE38DE1EAC75FF00138CC1 /* LaunchScreen.storyboard */,
+				18FE38E11EAC75FF00138CC1 /* Info.plist */,
+				18FE38D01EAC75FF00138CC1 /* Supporting Files */,
+			);
+			path = YY3Dscrollview;
+			sourceTree = "<group>";
+		};
+		18FE38D01EAC75FF00138CC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE38D11EAC75FF00138CC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FE38E91EAC75FF00138CC1 /* YY3DscrollviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE38EA1EAC75FF00138CC1 /* YY3DscrollviewTests.m */,
+				18FE38EC1EAC75FF00138CC1 /* Info.plist */,
+			);
+			path = YY3DscrollviewTests;
+			sourceTree = "<group>";
+		};
+		18FE38F41EAC75FF00138CC1 /* YY3DscrollviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE38F51EAC75FF00138CC1 /* YY3DscrollviewUITests.m */,
+				18FE38F71EAC75FF00138CC1 /* Info.plist */,
+			);
+			path = YY3DscrollviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE38CC1EAC75FF00138CC1 /* YY3Dscrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE38FA1EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3Dscrollview" */;
+			buildPhases = (
+				18FE38C91EAC75FF00138CC1 /* Sources */,
+				18FE38CA1EAC75FF00138CC1 /* Frameworks */,
+				18FE38CB1EAC75FF00138CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YY3Dscrollview;
+			productName = YY3Dscrollview;
+			productReference = 18FE38CD1EAC75FF00138CC1 /* YY3Dscrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FE38E51EAC75FF00138CC1 /* YY3DscrollviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE38FD1EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewTests" */;
+			buildPhases = (
+				18FE38E21EAC75FF00138CC1 /* Sources */,
+				18FE38E31EAC75FF00138CC1 /* Frameworks */,
+				18FE38E41EAC75FF00138CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE38E81EAC75FF00138CC1 /* PBXTargetDependency */,
+			);
+			name = YY3DscrollviewTests;
+			productName = YY3DscrollviewTests;
+			productReference = 18FE38E61EAC75FF00138CC1 /* YY3DscrollviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FE38F01EAC75FF00138CC1 /* YY3DscrollviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE39001EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewUITests" */;
+			buildPhases = (
+				18FE38ED1EAC75FF00138CC1 /* Sources */,
+				18FE38EE1EAC75FF00138CC1 /* Frameworks */,
+				18FE38EF1EAC75FF00138CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE38F31EAC75FF00138CC1 /* PBXTargetDependency */,
+			);
+			name = YY3DscrollviewUITests;
+			productName = YY3DscrollviewUITests;
+			productReference = 18FE38F11EAC75FF00138CC1 /* YY3DscrollviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE38C51EAC75FF00138CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18FE38CC1EAC75FF00138CC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					18FE38E51EAC75FF00138CC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FE38CC1EAC75FF00138CC1;
+					};
+					18FE38F01EAC75FF00138CC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FE38CC1EAC75FF00138CC1;
+					};
+				};
+			};
+			buildConfigurationList = 18FE38C81EAC75FF00138CC1 /* Build configuration list for PBXProject "YY3Dscrollview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FE38C41EAC75FF00138CC1;
+			productRefGroup = 18FE38CE1EAC75FF00138CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE38CC1EAC75FF00138CC1 /* YY3Dscrollview */,
+				18FE38E51EAC75FF00138CC1 /* YY3DscrollviewTests */,
+				18FE38F01EAC75FF00138CC1 /* YY3DscrollviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE38CB1EAC75FF00138CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE38E01EAC75FF00138CC1 /* LaunchScreen.storyboard in Resources */,
+				18FE38DD1EAC75FF00138CC1 /* Assets.xcassets in Resources */,
+				18FE38DB1EAC75FF00138CC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38E41EAC75FF00138CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38EF1EAC75FF00138CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE38C91EAC75FF00138CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE38D81EAC75FF00138CC1 /* ViewController.m in Sources */,
+				18FE38D51EAC75FF00138CC1 /* AppDelegate.m in Sources */,
+				18FE38D21EAC75FF00138CC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38E21EAC75FF00138CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE38EB1EAC75FF00138CC1 /* YY3DscrollviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE38ED1EAC75FF00138CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE38F61EAC75FF00138CC1 /* YY3DscrollviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FE38E81EAC75FF00138CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE38CC1EAC75FF00138CC1 /* YY3Dscrollview */;
+			targetProxy = 18FE38E71EAC75FF00138CC1 /* PBXContainerItemProxy */;
+		};
+		18FE38F31EAC75FF00138CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE38CC1EAC75FF00138CC1 /* YY3Dscrollview */;
+			targetProxy = 18FE38F21EAC75FF00138CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FE38D91EAC75FF00138CC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE38DA1EAC75FF00138CC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FE38DE1EAC75FF00138CC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE38DF1EAC75FF00138CC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FE38F81EAC75FF00138CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FE38F91EAC75FF00138CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FE38FB1EAC75FF00138CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YY3Dscrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3Dscrollview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FE38FC1EAC75FF00138CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YY3Dscrollview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3Dscrollview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FE38FE1EAC75FF00138CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YY3DscrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3DscrollviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YY3Dscrollview.app/YY3Dscrollview";
+			};
+			name = Debug;
+		};
+		18FE38FF1EAC75FF00138CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YY3DscrollviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3DscrollviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YY3Dscrollview.app/YY3Dscrollview";
+			};
+			name = Release;
+		};
+		18FE39011EAC75FF00138CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YY3DscrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3DscrollviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YY3Dscrollview;
+			};
+			name = Debug;
+		};
+		18FE39021EAC75FF00138CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YY3DscrollviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3DscrollviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YY3Dscrollview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE38C81EAC75FF00138CC1 /* Build configuration list for PBXProject "YY3Dscrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE38F81EAC75FF00138CC1 /* Debug */,
+				18FE38F91EAC75FF00138CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE38FA1EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3Dscrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE38FB1EAC75FF00138CC1 /* Debug */,
+				18FE38FC1EAC75FF00138CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FE38FD1EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE38FE1EAC75FF00138CC1 /* Debug */,
+				18FE38FF1EAC75FF00138CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FE39001EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE39011EAC75FF00138CC1 /* Debug */,
+				18FE39021EAC75FF00138CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE38C51EAC75FF00138CC1 /* Project object */;
+}
