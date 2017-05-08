@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183774561EADC5D500DF04A9 /* UIScrollView+TY3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183774551EADC5D500DF04A9 /* UIScrollView+TY3DView.m */; };
 		18FE38D21EAC75FF00138CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D11EAC75FF00138CC1 /* main.m */; };
 		18FE38D51EAC75FF00138CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D41EAC75FF00138CC1 /* AppDelegate.m */; };
 		18FE38D81EAC75FF00138CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38D71EAC75FF00138CC1 /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		18FE38E01EAC75FF00138CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE38DE1EAC75FF00138CC1 /* LaunchScreen.storyboard */; };
 		18FE38EB1EAC75FF00138CC1 /* YY3DscrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38EA1EAC75FF00138CC1 /* YY3DscrollviewTests.m */; };
 		18FE38F61EAC75FF00138CC1 /* YY3DscrollviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE38F51EAC75FF00138CC1 /* YY3DscrollviewUITests.m */; };
+		18FE390F1EAC81CC00138CC1 /* TY3DCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE390D1EAC81CC00138CC1 /* TY3DCollectionViewCell.m */; };
+		18FE39101EAC81CC00138CC1 /* TY3DCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FE390E1EAC81CC00138CC1 /* TY3DCollectionViewCell.xib */; };
+		18FE391B1EAC893200138CC1 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39111EAC893200138CC1 /* image1.jpeg */; };
+		18FE391C1EAC893200138CC1 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39121EAC893200138CC1 /* image2.jpg */; };
+		18FE391D1EAC893200138CC1 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39131EAC893200138CC1 /* image3.jpg */; };
+		18FE391E1EAC893200138CC1 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39141EAC893200138CC1 /* image4.jpg */; };
+		18FE391F1EAC893200138CC1 /* image5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39151EAC893200138CC1 /* image5.jpeg */; };
+		18FE39201EAC893200138CC1 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39161EAC893200138CC1 /* image6.jpg */; };
+		18FE39211EAC893200138CC1 /* image7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39171EAC893200138CC1 /* image7.jpeg */; };
+		18FE39221EAC893200138CC1 /* image8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39181EAC893200138CC1 /* image8.jpeg */; };
+		18FE39231EAC893200138CC1 /* image9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE39191EAC893200138CC1 /* image9.jpeg */; };
+		18FE39241EAC893200138CC1 /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FE391A1EAC893200138CC1 /* image10.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183774541EADC5D500DF04A9 /* UIScrollView+TY3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TY3DView.h"; sourceTree = "<group>"; };
+		183774551EADC5D500DF04A9 /* UIScrollView+TY3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TY3DView.m"; sourceTree = "<group>"; };
 		18FE38CD1EAC75FF00138CC1 /* YY3Dscrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YY3Dscrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE38D11EAC75FF00138CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18FE38D31EAC75FF00138CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,19 @@
 		18FE38F11EAC75FF00138CC1 /* YY3DscrollviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YY3DscrollviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE38F51EAC75FF00138CC1 /* YY3DscrollviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YY3DscrollviewUITests.m; sourceTree = "<group>"; };
 		18FE38F71EAC75FF00138CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE390C1EAC81CC00138CC1 /* TY3DCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TY3DCollectionViewCell.h; sourceTree = "<group>"; };
+		18FE390D1EAC81CC00138CC1 /* TY3DCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TY3DCollectionViewCell.m; sourceTree = "<group>"; };
+		18FE390E1EAC81CC00138CC1 /* TY3DCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TY3DCollectionViewCell.xib; sourceTree = "<group>"; };
+		18FE39111EAC893200138CC1 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		18FE39121EAC893200138CC1 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		18FE39131EAC893200138CC1 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		18FE39141EAC893200138CC1 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		18FE39151EAC893200138CC1 /* image5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpeg; sourceTree = "<group>"; };
+		18FE39161EAC893200138CC1 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		18FE39171EAC893200138CC1 /* image7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpeg; sourceTree = "<group>"; };
+		18FE39181EAC893200138CC1 /* image8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpeg; sourceTree = "<group>"; };
+		18FE39191EAC893200138CC1 /* image9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpeg; sourceTree = "<group>"; };
+		18FE391A1EAC893200138CC1 /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +133,22 @@
 				18FE38D41EAC75FF00138CC1 /* AppDelegate.m */,
 				18FE38D61EAC75FF00138CC1 /* ViewController.h */,
 				18FE38D71EAC75FF00138CC1 /* ViewController.m */,
+				183774541EADC5D500DF04A9 /* UIScrollView+TY3DView.h */,
+				183774551EADC5D500DF04A9 /* UIScrollView+TY3DView.m */,
+				18FE390C1EAC81CC00138CC1 /* TY3DCollectionViewCell.h */,
+				18FE390D1EAC81CC00138CC1 /* TY3DCollectionViewCell.m */,
+				18FE390E1EAC81CC00138CC1 /* TY3DCollectionViewCell.xib */,
 				18FE38D91EAC75FF00138CC1 /* Main.storyboard */,
+				18FE39111EAC893200138CC1 /* image1.jpeg */,
+				18FE39121EAC893200138CC1 /* image2.jpg */,
+				18FE39131EAC893200138CC1 /* image3.jpg */,
+				18FE39141EAC893200138CC1 /* image4.jpg */,
+				18FE39151EAC893200138CC1 /* image5.jpeg */,
+				18FE39161EAC893200138CC1 /* image6.jpg */,
+				18FE39171EAC893200138CC1 /* image7.jpeg */,
+				18FE39181EAC893200138CC1 /* image8.jpeg */,
+				18FE39191EAC893200138CC1 /* image9.jpeg */,
+				18FE391A1EAC893200138CC1 /* image10.jpg */,
 				18FE38DC1EAC75FF00138CC1 /* Assets.xcassets */,
 				18FE38DE1EAC75FF00138CC1 /* LaunchScreen.storyboard */,
 				18FE38E11EAC75FF00138CC1 /* Info.plist */,
@@ -207,6 +250,7 @@
 				TargetAttributes = {
 					18FE38CC1EAC75FF00138CC1 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 23YTL6FG8Z;
 						ProvisioningStyle = Automatic;
 					};
 					18FE38E51EAC75FF00138CC1 = {
@@ -246,8 +290,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FE391E1EAC893200138CC1 /* image4.jpg in Resources */,
 				18FE38E01EAC75FF00138CC1 /* LaunchScreen.storyboard in Resources */,
+				18FE39221EAC893200138CC1 /* image8.jpeg in Resources */,
 				18FE38DD1EAC75FF00138CC1 /* Assets.xcassets in Resources */,
+				18FE39211EAC893200138CC1 /* image7.jpeg in Resources */,
+				18FE39101EAC81CC00138CC1 /* TY3DCollectionViewCell.xib in Resources */,
+				18FE39241EAC893200138CC1 /* image10.jpg in Resources */,
+				18FE391B1EAC893200138CC1 /* image1.jpeg in Resources */,
+				18FE391F1EAC893200138CC1 /* image5.jpeg in Resources */,
+				18FE39201EAC893200138CC1 /* image6.jpg in Resources */,
+				18FE391C1EAC893200138CC1 /* image2.jpg in Resources */,
+				18FE391D1EAC893200138CC1 /* image3.jpg in Resources */,
+				18FE39231EAC893200138CC1 /* image9.jpeg in Resources */,
 				18FE38DB1EAC75FF00138CC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FE390F1EAC81CC00138CC1 /* TY3DCollectionViewCell.m in Sources */,
 				18FE38D81EAC75FF00138CC1 /* ViewController.m in Sources */,
 				18FE38D51EAC75FF00138CC1 /* AppDelegate.m in Sources */,
+				183774561EADC5D500DF04A9 /* UIScrollView+TY3DView.m in Sources */,
 				18FE38D21EAC75FF00138CC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +483,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 23YTL6FG8Z;
 				INFOPLIST_FILE = YY3Dscrollview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3Dscrollview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -437,10 +498,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 23YTL6FG8Z;
 				INFOPLIST_FILE = YY3Dscrollview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "a-yong.YY3Dscrollview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -509,6 +574,7 @@
 				18FE38FC1EAC75FF00138CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18FE38FD1EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +583,7 @@
 				18FE38FF1EAC75FF00138CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18FE39001EAC75FF00138CC1 /* Build configuration list for PBXNativeTarget "YY3DscrollviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +592,7 @@
 				18FE39021EAC75FF00138CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
